@@ -4,12 +4,16 @@
   "description": "My first discord bot, used for testing on d4nc3r's development server",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "d4nc3r",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^13.8.1",
     "dotenv": "^16.0.1"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
